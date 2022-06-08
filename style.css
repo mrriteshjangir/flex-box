@@ -1,0 +1,43 @@
+.parent{
+    display: flex;
+
+    /* row/row-revere/column/column-reverce */
+    flex-direction: row;
+
+    /* wrap/nowrap */
+
+    /* flex-wrap: wrap; */
+
+    /* start/center/end/space-evenly/space-between/space-arround */
+    justify-content:space-evenly;
+
+    background-color: antiquewhite;
+
+    height: 500px;
+
+    /* flex-start/flex-end/center */
+    /* align-items: center; */
+
+    align-content: flex-end;
+}
+
+.parent>div{
+    height: 200px;
+    width: 20%; 
+}
+
+.child-1{
+    background-color: aqua;
+}
+
+.child-2{
+    background-color:blue;
+}
+
+.child-3{
+    background-color:red;
+}
+
+.child-4{
+    background-color:black;
+}
